@@ -3,13 +3,16 @@ pip==23.3.1
 setuptools==68.2.2
 wheel==0.41.2
 
-# ---- core web stack ----
+# ---- Django core ----
 Django==4.2.3
 gunicorn==21.2.0
 
-# ---- database ----
+# ---- Database ----
 mysqlclient==2.2.0
 
-# ---- utilities ----
+# ---- Image handling ----
+Pillow==10.0.0
+
+# ---- Utilities ----
 sqlparse==0.4.4
 tzdata==2023.3
