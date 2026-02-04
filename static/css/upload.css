@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.body{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    text-align: center;
+}
+.container1{
+    height: 350px;
+    width: 430px;
+}
+.container1 .wrapper{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.wrapper .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* .wrapper .icon{} */
